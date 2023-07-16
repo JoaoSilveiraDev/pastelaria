@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:wght@300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.cabecalho{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.cabecalho_direita{
+    width: 88%;
+    height: 100%;
+    background-color: rgb(17, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.preco{
+    padding: 15px 80px;
+    background-color: rgb(17, 15, 15);
+    color:rgb(255, 255, 0);
+    border: 2px solid rgb(255, 255, 0);
+    border-radius: 15px;
+    text-align: center;
+}
+.botao{
+    padding: 10px 30px;
+    background-color: rgb(17, 15, 15);
+    color:rgb(255, 255, 0);
+    border: 2px solid rgb(255, 255, 0);
+    border-radius: 15px;
+}
+.cabecalho_esquerda{
+    width: 12%;
+    height: 100%;
+    background-color: rgb(17, 15, 15);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    background-color: yellowgreen;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.cabecalho_esquerda_imagem{
+    height: 100px;
+    width: 100px;
+    border-radius: 150px;
+}
+.conteudo{
+    height: 70%;
+    display: flex;
+    flex-direction: row;
+}
+.conteudo_direita{
+    width: 88%;
+    height: 100%;
+    background-image: url(./grandefamilia_840x560-9369560.webp);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.conteudo_direita_pasteis{
+    width: 45%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2%;
+}
+.conteudo_direita_pasteis_sabores{
+    height: 8%;
+    padding: 20px 0;
+    width: 80%;
+    background-color: rgb(17, 15, 15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid rgb(255, 255, 0);
+    border-radius: 10px;
+}
+.texto{
+    margin-left: 10px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: rgb(255, 255, 0);
+}
+.input{
+    width: 50px;
+    height: 25px;
+    border: 1px solid rgb(255, 255, 0);
+    text-align: center;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    background-color:rgb(17, 15, 15);
+    border-radius: 10px;
+    color:rgb(255, 255, 0);
+}
+.btn{
+    padding: 2px 10px;
+    background-color: green;
+    border: 1px solid rgb(255, 255, 0);
+    border-radius: 10px;
+}
+.btn2{
+    padding: 2px 10px;
+    margin-right: 10px;  
+    background-color: green;
+    border: 1px solid rgb(255, 255, 0);
+    border-radius: 10px;
+}
+h5{
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color: green;
+}
+.conteudo_esquerda{
+    width: 12%;
+    height: 100%;
+    background-image: linear-gradient(
+        180deg, yellowgreen, rgb(255, 255, 0)
+    );
+}
